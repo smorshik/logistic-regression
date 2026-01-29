@@ -48,7 +48,7 @@ sex = int(input("Пол (0 - мужской, 1 - женский): "))
 age = int(input("Возраст: "))
 sibsp = int(input("Количество братьев/сестер: "))
 parch = int(input("Количество родителей/детей: "))
-Fare = float(input("Стоимость билета: "))
+Fare = float(input("Стоимость билета от 0 до 100: "))
 
 jack = [[pclass, sex, age_category(age), sibsp, parch, Fare]]
 jack_scaled = scaler.transform(jack)
@@ -65,5 +65,5 @@ print("Точность модели на тестовых данных:", model
 ypred = model.predict(xtest)
 cm = confusion_matrix(ytest, ypred)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=["Погиб (0)", "Выжил (1)"])
-disp.plot(cmap=plt.cm.Blues) # cmap — это цветовая схема (синяя)
+disp.plot(cmap=plt.cm.Blues)
 plt.show()
