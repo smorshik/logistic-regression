@@ -22,7 +22,7 @@
 
 Вы можете запустить этот код прямо в браузере через Google Colab, не устанавливая ничего на свой компьютер:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ТВОЙ_НИК/НАЗВАНИЕ_РЕПОЗИТОРИЯ/blob/master/ИМЯ_ФАЙЛА.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/smorshik/logistic-regression/blob/master/Titanic_Logistic.ipynb)
 
 ### Локальный запуск
 
